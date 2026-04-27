@@ -7,7 +7,7 @@ public class Utilidades {
     public static String pedirTexto(String mensaje) {
         String txt;
         do {
-            txt = JOpetionPane.showInputDialog(mensaje);
+            txt = JOptionPane.showInputDialog(mensaje);
             if (txt == null)
                 return null;
         } while (txt.isBlank());
